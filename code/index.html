@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>mz</title>
+       <meta charset="UTF-8">
+    </head>
+    <body>
+       <!-- HTTTP超文本传输协议HyperText Transfer Protocol所有WWWW文件都必须遵守这个标准
+       HTTP/1.1定义的请求方法有8种：GET  POST PUT DELETE PATCH HEAD OPTIONS TRACE常用的两种为GET POST
+       如果是RESTful接口的话一般会用到GET POST DELETE PUT
+       常见状态码
+       200:成功
+       400:客户端请求有语法错误，服务器端不能理解
+       401：该请求可能未经过授权
+       403：服务器端收到该请求，但是拒绝为它提供服务，可能没有权限等等
+       404：该资源没有找到
+       500：服务器端发生一个不可预知的错误
+       503：服务器端当前还不能处理客户端的这个请求，可能过段时间之后才能恢复正常
+
+       网站（website）的组成：域名，空间服务器，DNS域名解析，网站程序，数据库等组成
+
+       HTML（Hyper Text Markup Language)超文本标记语言
+       双标记由开始和结束两个标记符组成
+       单标记也称空标记 常见有<br/> <hr/> <meta/><img/>
+       标签可以嵌套和并列 
+      <a href="" target=""></a>target默认为_self,_blank在新窗口打开
+      <ol type=value1 start=value2>
+         value1表示有序列表项目符号的类型
+         value2表示项目开始的数值
+
+      元数据是用来描述数据的数据
+      <meta>标签提供关于HTML文档的元数据：描述（description),关键词（keywords),文档的作者（author)
+      等其他元数据
+
+      <img src="url" alt="" itle=""/>
+     alt用文本信息替代未成功显示图片
+     title设置鼠标悬停时显示的内容
+     绝对路径是以引用文件的网页所在位置为参考基础而建立出的目录路径
+     图像文件和html文件位于同一文件夹直接输入图像文件名称
+     图像文件位于html文件的下一级文件夹中:img/文件名.jpg
+     图像文件位于html文件的上一级文件夹中：../文件名.jpg
+     相对路径是指当所有网页引用同一个文件时所使用的路径都是一样的
+     D：\webStudy\img\syl.jpg
+
+     form name="" method="" action=""
+     name:定义表单的名字
+     method：定义表单结果从浏览器传送到服务器的方式 默认参数为get post安全性更高，用词常用
+             作传输密码等，而get安全性较低，一般用于查询数据
+     action：用来指定表单处理程序的位置（服务器端脚本处理程序）
+     <form action="http://baidu.com"/>定义了发送数据要去的地址 如果没有提供此属性或者
+     action=“#”，则数据将被发送到包含表单的页面的URL
+     表单
+     <input id="place" name="place" required>
+     required属性 输入值不能为空，如果数值为空会提示错误
+      -->
+      <form>
+         <input type="text" id="text" name="text" required>
+         <input type="button" value="提交">
+      </form>
+<p>I LOVE YOU</p>
+<p>
+<a href="#winter">查看冬天</a>
+</p>
+<h2>春</h2>
+<p>万物复苏</p>
+<h2>夏</h2>
+<p>夏日绵绵</p>
+<h2>秋</h2>
+<p>秋高气爽</p>
+<h2><a name="winter">冬</a></h2>
+<p>白雪皑皑</p>
+       <p><ins>文字</ins> world</p> 
+       <table border="10">
+          <tr>
+             <th>
+                mz
+             </th>
+          </tr>
+          <tr>
+             <td>
+                mz1
+             </td>
+             <td>
+                mz2
+             </td>
+          </tr>
+          <tr>
+               <td>
+                  mz1
+               </td>
+               <td>
+                  mz2
+               </td>
+            </tr>
+       </table>
+       <ul style="list-style-type:circle">
+          <li>苹果</li>
+          <li>苹果</li>
+          <li>苹果</li>
+       </ul>
+       <ol type="a">
+            <li>苹果</li>
+            <li>苹果</li>
+            <li>苹果</li>
+       </ol>
+       <dl>
+          <dt>芒果</dt>
+             <dd>dddasdsa</dd>
+          <dt>芒果</dt>
+             <dd>dddasdsa</dd>
+       </dl>
+       <form>
+          <input type="radio" name="sex" value="male">Male<br>
+          <input type="radio" name="sex" value="female">Female<br>
+          <input type="checkbox" name="vehicle" value="bike" checked="checked">bike<br>
+          <input type="checkbox" name="vehicle" value="car">car<br>
+          <input type="checkbox" name="vehicle" value="plane">plane<br>
+          <select name="car">
+             <option value="volvo">volvo</option>
+             <option value="audi">audi</option>
+             <option value="saab" selected>saab</option>
+          </select>
+          <input type="button"value="asd">
+          first name:<input type="text" name="firstname" value="mz">
+                </form> -->
+    </body>
+</html>

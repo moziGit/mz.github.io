@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>练习css</title>
+        <link rel="stylesheet" type="text/css" href="../css/mz.css">
+    </head>
+    <body>
+        <!-- ！important > 行间样式 > id > class|属性选择器 > 标签选择器 > 通配符  -->
+       <!-- !important          Infinity
+       行间样式              1000(256进制)
+       id                    100 
+       class|属性选择器[id="***"] 伪类选择器   10
+       标签选择器              1
+       通配符                  0 -->
+       <!-- 父子选择器/派生选择器
+        <div >
+            <span>123</span>
+        </div>
+        <span>123</span>
+        直接子元素选择器div>em
+        并列选择器 div.demo -->
+        <!-- 分组选择器
+        <em>1</em>
+        <strong>2</strong>
+        <span>3</span> -->
+        <div>举个例子</div>
+        <a href="www.baidu.com">www.baidu.com</a>
+        <!-- 行级元素  内容决定元素所占位置   不可以通过css改变宽高
+        span strong em a del
+        块级元素  所有元素都独占一行        可以通过css改变宽高 内边距（padding)和外边距（margin）
+        div p ul li ol form address
+        行级块元素  内容决定大小  可以改变宽高
+        img 
+    
+        div元素布局（内容样式相分离） table元素布局（显示数据更方便）
+
+        文档和网站架构
+        标题：<header>
+        导航栏：<nav>
+        主要内容：<main>具有代表性的内容，段落主题可以使用<article>,<section>,<div>元素
+        侧栏:<aside>经常嵌套在<main>中
+        页脚：<footer>
+        
+            
+    -->
+        凡是带有inline的元素都有文字的属性会被分割
+        1.去掉空格可衔接
+        2.margin-left：-6px;
+    </body>
+</html>

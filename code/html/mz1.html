@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+        /* #div1{
+            width:200px;
+            height:200px;
+            background: red;
+        } */
+        #div1 {width: 100px;height: 200px;background: #ccc;display: none;}
+        </style>
+        <script>
+            // JavaScript是一种基于对象（Object）和事件驱动(Event Driven)并具有安全性能的脚本语言
+            // 解释性语言 基于对象也可看做面向对象 简单性
+            // 安全性  不允许访问本地的硬盘 不能将数据存入到服务器上 不允许对网络文档进行修改和删除，只能通过
+            //         浏览器实现信息浏览或动态交互 有效地防止数据的丢失
+            // 动态性  跨平台性  弱变量
+            // 不能直接使用id，兼容性问题，document.getElementById在任何浏览器下均可使用
+            // 任何标签都可以加ID，包括link
+            // 任何标签的任何属性也可以修改
+            // ==判断
+            // =赋值
+            // 想要用JS为标签加class必须用***.className=***;
+            //     function toBlue()
+            //     {
+            //         var obj=document.getElementById('div1');
+            //         obj.style.width='300px';
+            //         obj.style.height='300px';
+            //         obj.style.background='blue';          
+            //     }
+            //     function toRed()
+            //     {
+            //         var obj=document.getElementById('div1');
+            //         obj.style.width='200px';
+            //         obj.style.height='200px';
+            //         obj.style.background='red';
+            //     }
+            // function setText()
+            // {
+            //     var oTxt=document.getElementById('text1');
+            //     oTxt.value='张霖很好看';
+            // }
+            function showHide(){
+                var oDiv=document.getElementById('div1');
+                if(oDiv.style.display=='block')
+                {
+                    oDiv.style.display='none';
+                }
+                else{
+                    oDiv.style.display='block';
+                }
+            }
+        </script>        
+    </head>
+    <body>
+        <!-- <div id="div1" onmouseover="toBlue()" onmouseout="toRed()"> -->
+        <!-- </div> -->
+        <!-- <input id="text1" type="text"/>
+        <input type="button" value="设置文字" onclick="setText()"/> -->
+        <input type="button" value="显示隐藏" onclick="showHide()"/>
+        <div id="div1"></div>
+    </body>
+</html>

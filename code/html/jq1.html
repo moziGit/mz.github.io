@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jquery.comjquery-3.3.1.min.js"></script>
+    <!-- <script>
+        $(document).ready(function(){
+            $(".button").click(function(){
+                $("p").hide();
+            });
+        });
+      
+    </script>
+</head>
+<body>
+    <p>sdsads</p>
+    <p>dsfdfsd</p>
+   <input type="button" value="隐藏" class="button"> -->
+   <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            var div=$("div");  
+            div.animate({left:'100px'},"slow");
+            div.animate({fontSize:'3em'},"slow");
+          });
+        });
+        </script> 
+        </head>
+        
+        <body>
+        
+        <button>开始动画</button>
+        <p>默认情况下，所有 HTML 元素的位置都是静态的，并且无法移动。如需对位置进行操作，记得首先把元素的 CSS position 属性设置为 relative、fixed 或 absolute。</p>
+        <div style="background:#98bf21;height:100px;width:200px;position:absolute;">HELLO</div>
+</body>
+</html>
